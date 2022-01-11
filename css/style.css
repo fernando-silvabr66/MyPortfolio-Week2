@@ -1,0 +1,295 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #191765;
+}
+
+.header-toolbar {
+  display: flex;
+  flex-direction: row;
+  min-height: 4rem;
+  align-items: center;
+  padding: 15px;
+  color: white;
+  opacity: 1;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.my-logo {
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.my-logo:hover {
+  text-decoration: none;
+}
+
+.my-logo:active {
+  text-decoration: none;
+}
+
+.my-logo:visited {
+  text-decoration: none;
+}
+
+.content-headline-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url("../images/headline_bg.svg");
+  background-repeat: no-repeat;
+  min-height: 40vh;
+}
+
+.content-headline-section > h1 {
+  color: #7d73fc;
+  font-weight: bold;
+  line-height: 72px;
+  font-size: 48px;
+  padding: 1.2rem;
+  font-style: normal;
+  letter-spacing: 0.37px;
+  text-align: center;
+  background-color: transparent;
+  font-family: Roboto, sans-serif;
+}
+
+.content-headline-section > h2 {
+  color: #edecff;
+  font-weight: 500;
+  padding: 1rem;
+  text-align: center;
+  background-color: transparent;
+  font-family: Roboto, sans-serif;
+  font-size: 32px;
+  line-height: 44px;
+  font-style: normal;
+}
+
+.content-headline-section > p {
+  color: #c8c8d4;
+  padding: 2rem;
+  text-align: center;
+  line-height: 28px;
+  font-size: 20px;
+  background-color: transparent;
+  font-weight: 400;
+  font-family: Roboto, sans-serif;
+}
+
+.bars-icons {
+  color: #fff;
+}
+
+.separation-line {
+  border: 0.2px solid #646369;
+  margin: 25px;
+}
+
+.about-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  min-height: 40vh;
+  padding: 1rem;
+  background: url("../images/ellipse5.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  font-family: Roboto, sans-serif;
+}
+
+.skill-list {
+  background-color: transparent;
+}
+
+.skills-title {
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  color: #9390ff;
+  padding: 0.6rem 1.2rem;
+  background-color: transparent;
+  text-align: left;
+}
+
+.skills-items {
+  list-style-type: none;
+  padding: 1.2rem;
+  background-color: transparent;
+}
+
+.skills-items > li {
+  margin-bottom: 0.4rem;
+  background-color: transparent;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 24px;
+  color: #f5f5ff;
+  font-family: Roboto, sans-serif;
+}
+
+.social-media-icons > ul {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.social-media-icons > ul > li > a {
+  color: white;
+  padding: 5px;
+  zoom: 1.5;
+  text-decoration: none;
+}
+
+.my-works-section {
+  display: grid;
+  min-height: 50vh;
+}
+
+.my-works-titles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: #a2a3ae;
+}
+
+.my-works-section-title {
+  text-align: center;
+  color: #a2a3a3;
+  padding: 10px;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 32px;
+  font-weight: 500;
+  font-family: Roboto, sans-serif;
+}
+
+.my-work-icon {
+  zoom: 1.8;
+}
+
+.my-recent-work {
+  color: #9490ff;
+  font-size: 40px;
+  line-height: 42px;
+  font-style: normal;
+  font-weight: 500;
+  padding: 60px 0 60px 1.7rem;
+  font-family: Roboto, sans-serif;
+}
+
+.my-works-section-separator {
+  margin-top: -60px;
+}
+
+.my-projects {
+  display: flex;
+  flex-direction: column;
+}
+
+.my-project-image {
+  width: 340px;
+  height: 236px;
+  background-color: transparent;
+}
+
+.my-project-images-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.my-project-info-1 {
+  background: url("../images/ellipse1.svg");
+  background-repeat: no-repeat;
+}
+
+.project-info-2 {
+  background: url("../images/ellipse2.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.project-info-3 {
+  background: url("../images/ellipse3.svg");
+  background-repeat: no-repeat;
+}
+
+.project-info-4 {
+  background: url("../images/ellipse4.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.my-project-name {
+  background-color: transparent;
+  padding: 2rem;
+  color: white;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 500;
+  font-style: normal;
+  font-family: Roboto, sans-serif;
+}
+
+.my-project-description {
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  font-size: 20px;
+  padding: 2rem;
+  font-family: Roboto, sans-serif;
+  background-color: transparent;
+  color: #dcdce8;
+}
+
+.project-technologies > ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  list-style-type: none;
+}
+
+.project-technologies > ul > li {
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 10px;
+}
+
+.project-technologies > ul > li:not(:first-child) {
+  border-left: 1px solid gray;
+}
+
+.my-project-button {
+  background-color: #6b60fa;
+  width: 89px;
+  height: 48px;
+  margin: 2rem;
+  color: #edecff;
+  border: none;
+  outline: none;
+}
+
+.my-project-button:hover {
+  box-shadow: 1px 8px 16px rgba(125 115 252 / 48%);
+}
