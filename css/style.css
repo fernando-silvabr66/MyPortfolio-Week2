@@ -163,6 +163,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: baseline;
   color: #a2a3ae;
 }
 
@@ -205,7 +206,7 @@
 .my-project-image {
   width: 340px;
   height: 236px;
-  background-color: transparent;  
+  background-color: transparent;
 }
 
 .my-project-image-container {
@@ -216,22 +217,22 @@
 
 .my-project-info-1 {
   background: url("../images/ellipse1.svg");
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
 }
 
 .project-info-2 {
   background: url("../images/ellipse2.svg");
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
 }
 
 .project-info-3 {
   background: url("../images/ellipse3.svg");
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
 }
 
 .project-info-4 {
   background: url("../images/ellipse4.svg");
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
 }
 
 .my-project-name {
@@ -272,10 +273,12 @@
   font-size: 15px;
   line-height: 20px;
   padding: 10px;
+  background-color: transparent;
 }
 
 .project-technologies > ul > li:not(:first-child) {
   border-left: 1px solid gray;
+  background-color: transparent;
 }
 
 .my-project-button {
@@ -327,10 +330,10 @@
   padding-left: 10px;
 }
 
-.name-ph-change::-webkit-input-placeholder {
+/* .name-ph-change::-webkit-input-placeholder {
   color: #191765;
   font-weight: bold;
-}
+} */
 
 .contact-form textarea {
   background-color: #fff;
@@ -361,7 +364,7 @@ textarea::placeholder {
 .contact-form button:hover {
   color: #edecff;
   background-color: #7d73fc;
-  box-shadow: 0px 8px 16px rgba(125 115  252 / 48%);
+  box-shadow: 1px 8px 16px rgba(125 115  252 / 48%);
   border: none;
 }
 
@@ -381,17 +384,15 @@ textarea::placeholder {
   margin-top: 60px;
   width: 100%;
   height: 1px;
-  left: 0px;
-  right: 0px;
   top: 25px;
   background-color: #3a3837;
-  display:flex;
+  display: flex;
   justify-content: center;
 }
 
-footer p {
-  font-size: normal;
-  line-height: 28px;;
+.myportfolio-footer p {
+  font-size: 20px;
+  line-height: 28px;
   text-align: center;
   color: #ebebff;
   font-family: Roboto, sans-serif;
