@@ -20,7 +20,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" />
 
   <link rel="preload" as="style" onload="this.onload = null; this.rel = 'stylesheet'"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" />
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" />
 
   <title>Fernando´s Portfolio - Week 2 Work</title>
 </head>
@@ -108,12 +108,13 @@
     </div>
 
     <h2 class="my-recent-work">MY RECENT WORK</h2>
+
     <div class="my-works-section-separator">
         <hr class="separation-line" />
     </div>
 
     <div class="my-projects">
-      <div class="my-project-images-container">
+      <div class="my-project-image-container">
         <img
           src="./images/background.jpg"
           alt="project image"
@@ -182,7 +183,7 @@
           src="./images/background.jpg"
           alt="project image"
           class="my-project-image"
-        />
+        /> 
       </div>
 
       <div class="my-project-info-3">
@@ -250,20 +251,23 @@
 
     <form action="https://formspree.io/f/moqrjakr" method="post">
       
-         <input class="form-first-name" type="text" name="user-first-name" placeholder="Text Input">
+         <input type="text" name="user-first-name" placeholder="Text Input">
       
-         <input class="form-email" type="email" name="user-email" placeholder="Email">
+         <input type="email" name="user-email" placeholder="jeremy@gmail.com" class="name-ph-change">
        
-         <textarea class="form-msg" name="user-message" placeholder="Enter text here"></textarea>
+         <textarea name="user-message" placeholder="Enter text here" class="name-ph-text-area-change"></textarea>
 
-        <button class="form-button-button" type="submit">Send</button>
+        <button type="submit">Send</button>
 
 
      </form>
 
   </div>
 
-  <hr class="separation-line" />    
+  <img
+    src="./images/Rectangle 42.svg"
+    class="footer-rectangle-separator"
+  />
 
   <footer class="MyPortfolio-footer">
     <div class="social-media-icons">
@@ -284,7 +288,10 @@
           <a href="#"><i class="fab fa-facebook"></i></a>
         </li>
       </ul>
-    </div>    
+    </div>
+
+    <p>fernando.silvabr66@gmail.com</p>
+
   </footer>
       
 </body>
