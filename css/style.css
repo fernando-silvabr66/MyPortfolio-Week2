@@ -337,10 +337,15 @@
   height: 148px;
   padding-left: 12px;
   color: #81818c;
+  font-family: Inter, sans-serif;
 }
 
 textarea::placeholder {
   padding-top: 10px;
+}
+
+.name-ph-change::placeholder {
+  color: #191765;
 }
 
 .contact-form button {
