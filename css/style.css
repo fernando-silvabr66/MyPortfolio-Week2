@@ -90,7 +90,12 @@
   color: #fff;
 }
 
-.separation-line {
+.separation-line-t1 {
+  margin-top: 60px;
+  border: 0.2px solid #646369;
+}
+
+.separation-line-t2 {
   border: 0.2px solid #646369;
   margin: 25px;
 }
@@ -192,15 +197,12 @@
   font-family: Roboto, sans-serif;
 }
 
-.my-works-section-separator {
-  margin-top: -60px;
-}
-
 .my-projects {
   display: flex;
   flex-direction: column;
   align-content: center;
   background-color: transparent;
+  margin-top: 30px;
 }
 
 .my-project-image {
@@ -282,11 +284,11 @@
 }
 
 .my-project-button {
-  background-color: #6b60fa;
   width: 89px;
   height: 48px;
   margin: 2rem;
   color: #edecff;
+  background-color: #7d73fc;
   border: none;
   outline: none;
 }
@@ -380,7 +382,7 @@ textarea::placeholder {
   border: none;
 }
 
-.footer-rectangle-separator {
+/* .footer-rectangle-separator {
   margin-top: 60px;
   width: 100%;
   height: 1px;
@@ -388,7 +390,7 @@ textarea::placeholder {
   background-color: #3a3837;
   display: flex;
   justify-content: center;
-}
+} */
 
 .myportfolio-footer p {
   font-size: 20px;
@@ -396,4 +398,5 @@ textarea::placeholder {
   text-align: center;
   color: #ebebff;
   font-family: Roboto, sans-serif;
+  margin-bottom: 28px;
 }
