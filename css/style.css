@@ -167,6 +167,17 @@ body {
 .fab {
   color: white;
   width: 30px;
+.social-media-icons i {
+  transition: color 0.5s linear;
+}
+
+.social-media-icons i:hover {
+  color: yellow;
+}
+
+.my-works-section {
+  display: grid;
+  min-height: 50vh;
 }
 
 .my-project-section {
