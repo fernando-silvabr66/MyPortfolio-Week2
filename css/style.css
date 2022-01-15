@@ -167,12 +167,6 @@ body {
 .fab {
   color: white;
   width: 30px;
-.social-media-icons i {
-  transition: color 0.5s linear;
-}
-
-.social-media-icons i:hover {
-  color: yellow;
 }
 
 .my-works-section {
@@ -365,7 +359,7 @@ textarea {
   color: #81818c;
 }
 
-#email::placeholder {
+#user-email::placeholder {
   color: #191765;
   padding-left: 10px;
 }
@@ -404,6 +398,7 @@ textarea::placeholder {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
+  align-items: baseline;
 }
 
 .my-hrbar-full {
@@ -428,7 +423,7 @@ textarea::placeholder {
   border: 2px solid black;
 }
 
-.my-work-socio {
+.my-work-social {
   display: flex;
   width: 100%;
   justify-content: space-around;
@@ -477,7 +472,7 @@ textarea::placeholder {
     color: #fff;
   }
 
-  .my-email {
+  .email {
     margin-top: 10px;
   }
 
